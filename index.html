@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vendor Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="Main.css">
+  <style>
+
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+          body {
+        
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(255,255,255,0.7);
+    
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); Colorful gradient dd
+    padding: 20px 40px;
+    
+
+}
+
+/* Logo styles */
+.logo h1 {
+    color: white;
+    font-size: 40px;
+    margin: 10px;}
+
+    
+    /* Navigation styles */
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 20px;}
+
+nav ul li {
+    margin-left: 10px;}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    color: #8af8aa}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;}
+    
+nav ul {
+        flex-direction: column;}
+    
+nav ul li {
+        margin-left: 0;
+        margin-top: 10px;}
+    }
+.marquee1{
+        background-color: Aqua;
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        justify-content: center; 
+
+    }
+
+.marquee2{
+       /* border: solid blue 2px;*/
+        width: 100%;
+        margin-top: 2px;
+        height: 34px;
+        float: left;
+    }
+
+.marquee2a{
+        width: 20%;
+        height: 30px;
+      /*border: solid blue 2px;*/
+        background-color: pink;
+        float: left;
+        font-size: 20px;
+        font-weight: bold;
+        }
+
+.marquee2b{
+        width: 80%;
+        height: 30px;
+      /*border: solid blue 2px;*/
+        background-color: pink;
+        float: left;*/
+
+        }
+.marquee2b a{
+
+        margin: 15px;
+        font-size: 18px;
+        font-weight: bold;
+}
+
+.sidemenubox {
+
+           float: left;
+            width: 14%;
+          border: solid blue 2px;
+            
+            border-radius: 10px;
+            margin: 15px ;
+            height: 1000px;
+            }
+        
+.sidemenu{
+            float: left;
+            width: 95%;
+          /*border: solid blue 2px;*/
+            background-color: #d5dbdb;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px 3px;
+            height: 500px;
+           
+            padding: 10px;}
+
+
+
+
+    .java{
+      border: 2px red solid;
+      width: 75%;
+      float: left;
+
+    }
+    .vendor-container { display: none; margin-bottom: 30px; }
+    .vendor-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+    .vendor-table th, .vendor-table td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    .vendor-table tfoot { font-weight: bold; background-color: #f0f0f0; }
+    .total-summary { margin: 10px 0; font-weight: bold; color: green; }
+ </style>
+ 
+  
+</head>
+<body>
+
+   <header>
+        <div class="logo">
+            <h1>Tietoevry.com</h1>
+        </div>
+        <nav>
+            <ul><li><a href="">Home</a></li>
+                <li><a href="GST.jpg" target="blank">About</a></li>
+                <li><a href="PAN.jpg" target="blank">Services</a></li>
+                <li><a href="tel:+1234567890">Contact</a></li></ul>
+            </nav>
+    </header>
+
+    <div class ="marquee1"><arquee scrollAmount="8">Account Department Financial Year 2025-26</marquee></div>
+
+
+
+<div class="marquee2">
+    <div class="marquee2a">TietoEvry Latest News &#8614;</div>
+    <div class="marquee2b"><marquee>&#128658;<a href="Document 2025.26/taxchange/Key Features of Budget 2025.pdf" target="blank">Key Features of Budget 2025</a><a href="Document 2025.26/taxchange/IncomeTax.jpg" target="blank">IncomeTax</a><a href="Document 2025.26/taxchange/Aeka - 2025 Budget summary.pdf" target="blank">Aeka - 2025 Budget summary</a><a href="Document 2025.26/taxchange/1.2.25- Govt Budget 25-26 Main Tax changes.pdf" target="blank">1.2.25- Govt Budget 25-26 Main Tax changes</a><a href="Document 2025.26/taxchange/LSPapersAdmin_Papers_PC_English1_10585.pdf" target="blank">LSPapersAdmin_Papers_PC_English1_10585</a>&#128663;</marquee>
+    </div></div>
+
+    <div class="sidemenubox">
+<div class="sidemenu"><a href="Document 2025.26/taxchange/Aeka - 2025 Budget summary.pdf" target="blank">Aeka - 2025 Budget summary</a><br><br><a href="Document 2025.26/taxchange/Key Features of Budget 2025.pdf" target="blank">Key Features of Budget 2025</a><br><br><a href="Document 2025.26/taxchange/IncomeTax.jpg" target="blank">IncomeTax</a><br><br><a href="Document 2025.26/taxchange/1.2.25- Govt Budget 25-26 Main Tax changes.pdf" target="blank">1.2.25- Govt Budget 25-26 Main Tax changes</a><br><br><a href="Document 2025.26/taxchange/LSPapersAdmin_Papers_PC_English1_10585.pdf" target="blank">LSPapersAdmin<br>Papers PC<br>English1 10585</a><br><br>
+<a href="Document 2025.26/taxchange/GST.jpg" target="blank">GST</a><br><br><a href="Document 2025.26/taxchange/PAN.jpg" target="blank">PAN<br><br><a href="Document 2025.26/taxchange/Bangteam.jpg" target="blank">Banglore team</a><br><br></div></div>
+
+  <div class="java">
+
+<h2>🧾 All AP Expenses Grand Total Summary </h2>
+<div id="grandTotal" class="total-summary">Loading grand total...</div>
+
+<label for="vendorDropdown"><strong>Select Vendor:</strong></label>
+<select id="vendorDropdown">
+  <option value="">-- Select Vendor --</option>
+  <option value="vendor1">Quarkcity</option>
+  <option value="vendor2">Ultimate Utilities</option>
+  <option value="vendor3">Rai</option>
+</select>
+
+<!-- VENDOR 1 -->
+<div id="vendor1" class="vendor-container">
+
+
+
+  <!-- VENDOR 1 Quarkcity Table 1-->
+  <h3>1. Rent Charges (TDS 10%)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>Apr</td><td>1368800</td><td>10</td><td></td><td></td><td><a href="Git hub/Vendor Bill2025-26/April/Quark Rent-Apr.pdf" target="blank">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>June</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+         <tr><td>July</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+
+  
+
+  <!-- VENDOR 1 Quarkcity Table 2-->
+  <h3>2. Maintenance Charges (TDS 10%)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+
+  <!-- VENDOR 1 Quarkcity Table 3-->
+  
+  <h3>3. Fixed UPS Load  (TDS 2%)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td>   <td>0</td>   <td>2</td>   <td></td>  <td></td>  <td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+
+   <!-- VENDOR 1 Quarkcity Table 4-->
+  
+  <h3>4. Maintenance Charges 24 Hrs (TDS 10%)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td>   <td>0</td>   <td>10</td>   <td></td>  <td></td>  <td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+
+   <!-- VENDOR 1 Quarkcity Table 5-->
+  
+  <h3>5.Pest Control Service  (TDS 2%)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td>   <td>0</td>   <td>2</td>   <td></td>  <td></td>  <td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+
+   <!-- VENDOR 1 Quarkcity Table 6-->
+  
+  <h3>6. Electrcity Charges (TDS 0%)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td>   <td>0</td>   <td>0</td>   <td></td>  <td></td>  <td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+
+   <!-- VENDOR 1 Quarkcity Table 7-->
+  
+  <h3>7. Maintenance of power Back up Charges (TDS 2%)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td>   <td>0</td>   <td>2</td>   <td></td>  <td></td>  <td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+
+   <!-- VENDOR 1 Quarkcity Table 8-->
+  
+  <h3>8. Parking Charges (194I(a)) (TDS 10%)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td>   <td>0</td>   <td>10</td>   <td></td>  <td></td>  <td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+
+   <!-- VENDOR 1 Quarkcity Table 9-->
+  
+  <h3>9. Air Conditioning Charges  (TDS 2%)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td>   <td>0</td>   <td>2</td>   <td></td>  <td></td>  <td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+
+   <!-- VENDOR 1 Quarkcity Table 10-->
+  
+  <h3>10. SEZ Officer's Cost Recovery (TDS 10%)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td>   <td>0</td>   <td>10</td>   <td></td>  <td></td>  <td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+<!-- VENDOR 2 -->
+<div id="vendor2" class="vendor-container">
+  <h3>Ultimate Utilities - Q1 (Apr-Jun)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>April</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+  <h3>Ultimate Utilities - Q2 (Jul-Sep)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>8</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+
+<!-- VENDOR 3 -->
+<div id="vendor3" class="vendor-container">
+  <h3>Rai - Q1 (Apr-Jun)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>April</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+
+  <h3>Rai - Q2 (Jul-Sep)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>July</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>August</td><td>0</td><td>8</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+<script>
+function calculateTotals(table) {
+  const rows = table.querySelectorAll("tbody tr");
+  let totalAmount = 0, totalTDS = 0, totalNet = 0;
+
+  rows.forEach(row => {
+    const amount = parseFloat(row.cells[1].innerText) || 0;
+    const tdsPercent = parseFloat(row.cells[2].innerText) || 0;
+    const tdsAmount = amount * tdsPercent / 100;
+    const netAmount = amount - tdsAmount;
+
+    row.cells[3].innerText = tdsAmount.toFixed(2);
+    row.cells[4].innerText = netAmount.toFixed(2);
+
+    totalAmount += amount;
+    totalTDS += tdsAmount;
+    totalNet += netAmount;
+  });
+
+  const footer = table.querySelector("tfoot tr");
+  footer.cells[1].innerText = totalAmount.toFixed(2);
+  footer.cells[3].innerText = totalTDS.toFixed(2);
+  footer.cells[4].innerText = totalNet.toFixed(2);
+
+  return { totalAmount, totalTDS, totalNet };
+}
+
+function updateGrandTotal() {
+  const tables = document.querySelectorAll(".vendor-table");
+  let grandAmount = 0, grandTDS = 0, grandNet = 0;
+
+  tables.forEach(table => {
+    const totals = calculateTotals(table);
+    grandAmount += totals.totalAmount;
+    grandTDS += totals.totalTDS;
+    grandNet += totals.totalNet;
+  });
+
+  document.getElementById("grandTotal").innerText =
+    `Total Amount: ₹${grandAmount.toFixed(2)} | Total TDS: ₹${grandTDS.toFixed(2)} | Total Net: ₹${grandNet.toFixed(2)}`;
+}
+
+document.getElementById("vendorDropdown").addEventListener("change", function () {
+  const value = this.value;
+  document.querySelectorAll(".vendor-container").forEach(div => div.style.display = "none");
+  if (value) document.getElementById(value).style.display = "block";
+});
+
+window.onload = updateGrandTotal;
+</script>
+
+</div>
+</body>
+</html>
