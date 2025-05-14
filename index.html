@@ -31,11 +31,41 @@ header {
 }
 
 /* Logo styles */
-.logo h1 {
-    color: white;
-    font-size: 40px;
-    margin: 10px;}
+ .logo {
+      font-size: 40px;
+      font-weight: bold;
+      display: flex;
+      gap: 10px;
+    }
 
+    .letter {
+      animation: bounce 1.5s infinite ease-in-out;
+      display: inline-block;
+      color: white;
+      text-shadow: 0 0 10px #00ffff;
+    }
+
+    .letter:nth-child(1) { animation-delay: 0s; }
+    .letter:nth-child(2) { animation-delay: 0.1s; }
+    .letter:nth-child(3) { animation-delay: 0.2s; }
+    .letter:nth-child(4) { animation-delay: 0.3s; }
+    .letter:nth-child(5) { animation-delay: 0.4s; color: aqua; text-shadow: 0 0 10px #ff00ff; }
+    .letter:nth-child(6) { animation-delay: 0.5s; }
+    .letter:nth-child(7) { animation-delay: 0.6s; }
+    .letter:nth-child(8) { animation-delay: 0.7s; }
+    .letter:nth-child(9) { animation-delay: 0.8s; }
+    .letter:nth-child(10) { animation-delay: 0.9s; color: #ff6600; text-shadow: 0 0 10px #ff6600; }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      50% {
+        transform: translateY(-15px);
+        opacity: 0.8;
+      }
+    }
     
     /* Navigation styles */
 nav ul {
@@ -151,9 +181,9 @@ nav ul li {
     }
     .vendor-container { display: none; margin-bottom: 30px; }
     .vendor-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
-    .vendor-table th{background: pink;border: 10px solid #ccc; padding: 8px;} .vendor-table td { border: 10px solid #ccc; padding: 8px; text-align: center; }
+    .vendor-table th{background: pink;border: 10px solid #ccc; padding: 8px;} .vendor-table td { border: 10px solid #ccc; padding: 8px; text-align: center;  }
     .vendor-table tfoot { font-weight: bold; background-color: pink; }
-    .total-summary { margin: 10px 0; font-weight: bold; color: green; font-size:23px;border:2px solid green; padding:10px;background:#d7bde2; }
+    .total-summary { margin: 10px 0; font-weight: bold; color: green; font-size:23px;border:2px solid green; padding:10px;background: grey;box-shadow: 3px 3px 3px 1px black; color: white;}
     h3{
       background-color: aqua; 
       border: green solid 2px;
@@ -162,10 +192,20 @@ nav ul li {
     select{
       font-size: 15px;
       font-weight: bold;
-      background: #CCCCFF;
+      background: greay;
       padding: 2px;
       border: 2px green solid;
+      box-shadow: 3px 3px 3px 1px green;
+      margin: 5px;
     }
+
+    .poorabox{
+             height: 600px;
+             border: 2px re solid;
+    }
+
+    
+    
  </style>
   
 </head>
@@ -173,10 +213,20 @@ nav ul li {
 
    <header>
         <div class="logo">
-            <h1>Tietoevry.com</h1>
-        </div>
+    <span class="letter">T</span>
+    <span class="letter">i</span>
+    <span class="letter">e</span>
+    <span class="letter">t</span>
+    <span class="letter">E</span>
+    <span class="letter">v</span>
+    <span class="letter">r</span>
+    <span class="letter">y</span>
+    <span class="letter">.</span>
+    
+    
+  </div>
         <nav>
-            <ul><li><a href="">Home</a></li>
+            <ul><li><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Welcome_Chandigarh_Office_Message.docx" target="_blank">Home</a></li>
                 <li><a href="GST.jpg" target="blank">About</a></li>
                 <li><a href="PAN.jpg" target="blank">Services</a></li>
                 <li><a href="tel:+1234567890">Contact</a></li></ul>
@@ -188,9 +238,12 @@ nav ul li {
 
 
 <div class="marquee2">
-    <div class="marquee2a">TietoEvry Latest News &#8614;</div>
+    <div class="marquee2a">TietoEvry News &#8614;</div>
     <div class="marquee2b"><marquee>&#128658;<a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Key-Features-of-Budget-2025_compressed.pdf" target="blank"> Key Features of Budget 2025</a><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/IncomeTax.jpg" target="blank">IncomeTax</a><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Aeka-2025-Budget-summary.pdf" target="blank">Aeka - 2025 Budget summary</a><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/1.2.25-Govt-Budget-25-26-Main-Tax-changes.pdf" target="blank">1.2.25- Govt Budget 25-26 Main Tax changes</a><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/LSPapersAdmin_Papers_PC_English1_10585_compressed.pdf" target="blank">LSPapersAdmin_Papers_PC_English1_10585</a>&#128663;</marquee>
     </div></div>
+
+
+    <div class="poorabox">
 
     <div class="sidemenubox">
 <div class="sidemenu"><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Key-Features-of-Budget-2025_compressed.pdf" target="blank"> Key Features of Budget 2025</a><br><br><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/IncomeTax.jpg" target="blank">IncomeTax</a><br><br><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Aeka-2025-Budget-summary.pdf" target="blank">Aeka - 2025 Budget summary</a><br><br><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/1.2.25-Govt-Budget-25-26-Main-Tax-changes.pdf" target="blank">1.2.25- Govt Budget 25-26 Main Tax changes</a><br><br><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/LSPapersAdmin_Papers_PC_English1_10585_compressed.pdf" target="blank">LSPapersAdmin<br>Papers PC<br>English1 10585</a><br><br>
@@ -211,6 +264,14 @@ nav ul li {
   <option value="vendor5">Tricity Corporate Solution</option>
   <option value="vendor6">Day Night Tour & Travels</option>
   <option value="vendor7">Bharti Airtel</option>
+  <option value="vendor8">Advas</option>
+  <option value="vendor9">Dr.Archana Gopal</option>
+  <option value="vendor10">Hewlett-Packard (HP)</option>
+  <option value="vendor11">Sai Enterprises</option>
+  <option value="vendor12">Care Enterprises</option>
+  <option value="vendor13">Sterling Infoways</option>
+  <option value="vendor14">Hi Royal</option>
+  <option value="vendor15">Canon India PVT LTD</option>
 </select>
 
 <!-- VENDOR 1 -->
@@ -257,7 +318,7 @@ nav ul li {
     <tbody>
       <tr><td>Apr</td>   <td>38294</td>   <td>2</td>   <td></td>  <td></td>  <td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Quark%20Fixed%20UPS%20Load-Apr.pdf" target="_blank">👉 Bill</a></td></tr>
       <tr><td>May</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
@@ -285,7 +346,7 @@ nav ul li {
     <tbody>
       <tr><td>Apr</td>   <td>0</td>   <td>2</td>   <td></td>  <td></td>  <td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Quark%20-Apr.pdf" target="_blank">👉 Bill</a></td></tr>
       <tr><td>May</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
@@ -299,7 +360,7 @@ nav ul li {
     <tbody>
       <tr><td>Apr</td>   <td>202802</td>   <td>0</td>   <td></td>  <td></td>  <td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Quark%20Electricity%20Cahrges-Apr.pdf" target="_blank">👉 Bill</a></td></tr>
       <tr><td>May</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
@@ -313,7 +374,7 @@ nav ul li {
     <tbody>
       <tr><td>Apr</td>   <td>92260</td>   <td>2</td>   <td></td>  <td></td>  <td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Quark%20Maintenance%20of%20power%20Back...-Apr.pdf" target="_blank">👉 Bill</a></td></tr>
       <tr><td>May</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
@@ -341,7 +402,7 @@ nav ul li {
     <tbody>
       <tr><td>Apr</td>   <td>191384</td>   <td>2</td>   <td></td>  <td></td>  <td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Quark%20AC%20Chatges-Apr.pdf" target="_blank">👉 Bill</a></td></tr>
       <tr><td>May</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
@@ -367,9 +428,9 @@ nav ul li {
   <table class="vendor-table">
     <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
     <tbody>
-      <tr><td>April</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>May</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>April</td><td>100</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
@@ -386,7 +447,7 @@ nav ul li {
     <tbody>
       <tr><td>April</td><td>17944</td><td>0</td><td></td><td></td><td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Rai-Karyana-Store-All-Bill-Apr.pdf" target="_blank">👉 Bill-April</a></td></tr>
       <tr><td>May</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
@@ -398,9 +459,9 @@ nav ul li {
   <table class="vendor-table">
     <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
     <tbody>
-      <tr><td>April</td><td>0</td><td>5</td><td></td><td></td><td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/MR-Security-Apr.pdf" target="_blank">👉 Bill-April</a></td></tr>
-      <tr><td>May</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>April</td><td>164862</td><td>1</td><td></td><td></td><td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/MR-Security-Apr.pdf" target="_blank">👉 Bill-April</a></td></tr>
+      <tr><td>May</td><td>0</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
@@ -412,9 +473,9 @@ nav ul li {
   <table class="vendor-table">
     <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
     <tbody>
-      <tr><td>April</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>May</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>April</td><td>4425</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
@@ -426,9 +487,9 @@ nav ul li {
   <table class="vendor-table">
     <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
     <tbody>
-      <tr><td>April</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>May</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>April</td><td>0</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
@@ -436,17 +497,173 @@ nav ul li {
 
 <!-- VENDOR 7 -->
 <div id="vendor7" class="vendor-container">
-  <h3>Bharti Airtel (Apr-25 To Mar-26)</h3>
+  <h3>1.Bharti Airtel Relationship manager (107-103767828) (Apr-25 To Mar-26)</h3>
   <table class="vendor-table">
     <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
     <tbody>
-      <tr><td>April</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
-      <tr><td>May</td><td>0</td><td>5</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>1 April to 25 Apr </td><td>4110</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+   <!-- VENDOR 1 Bharti Airtel Table 3-->
+  
+  <h3>2. Bharti Airtel Relationship manager (31-19415099) (Apr-25 To Mar-26)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>Apr</td>   <td>50000</td>   <td>0.20</td>   <td></td>  <td></td>  <td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Quark%20Fixed%20UPS%20Load-Apr.pdf" target="_blank">👉 Bill</a></td></tr>
+      <tr><td>May</td><td>50000</td><td>0.20</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>0.20</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+   <!-- VENDOR 1 Bharti Airtel Table 3-->
+  
+  <h3>3. Bharti Airtel Relationship manager (107-103767828) (Apr-25 To Mar-26)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>Apr</td>   <td>0</td>   <td>0</td>   <td></td>  <td></td>  <td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Quark%20Fixed%20UPS%20Load-Apr.pdf" target="_blank">👉 Bill</a></td></tr>
+      <tr><td>May</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+<!-- VENDOR 8 -->
+<div id="vendor8" class="vendor-container">
+  <h3>1.Advas(Apr-25 To Mar-26)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>April </td><td>23000</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
       <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
     </tbody>
     <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
   </table>
 </div>
+
+<!-- VENDOR 9 -->
+<div id="vendor9" class="vendor-container">
+  <h3>1.Dr. Archana Gopal(Apr-25 To Mar-26)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>April </td><td>20000</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>10</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+<!-- VENDOR 10 -->
+<div id="vendor10" class="vendor-container">
+  <h3>1.Hewlett-Packard (HP)(Apr-25 To Mar-26)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>April </td><td>80716</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May To Jul</td><td>242148</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Aug</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+<!-- VENDOR 11 Sai Enterprises -->
+<div id="vendor11" class="vendor-container">
+  <h3>1.Sai Enterprises (Apr-25 To Mar-26)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>April To Jun</td><td>12500</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jul</td><td>0</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Aug</td><td>0</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+<!-- VENDOR 12 Care Enterprises -->
+<div id="vendor12" class="vendor-container">
+  <h3>1.Care Enterprises (Apr-25 To Mar-26)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>April To Sep Bill Pending</td><td>68587</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jul</td><td>0</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Aug</td><td>0</td><td>1</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+<!-- VENDOR 13 Sterling Infoways  -->
+<div id="vendor13" class="vendor-container">
+  <h3>1.Sterling Infoways (Apr-25 To Mar-26)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>April To May</td><td>135257</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>April To 7 July</td><td>50943</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Aug</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+<!-- VENDOR 14 Hi Royal  -->
+<div id="vendor14" class="vendor-container">
+  <h3>1.Hi Royal (Apr-25 To Mar-26)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>April</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>0</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+<!-- VENDOR 14 Canon India PVT LTD  -->
+<div id="vendor15" class="vendor-container">
+  <h3>1.Canon Printer Rent Carges (Apr-25 To Mar-26)</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>April</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>May</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+
+   <!-- VENDOR 14 Canon India PVT LTD table 2-->
+  
+  <h3>4. Canon Printer reding Charges</h3>
+  <table class="vendor-table">
+    <thead><tr><th>Month</th><th>Amount</th><th>TDS (%)</th><th>TDS</th><th>Net Amount</th><th>PDF</th></tr></thead>
+    <tbody>
+      <tr><td>Apr</td>   <td>0</td>   <td>2</td>   <td></td>  <td></td>  <td><a href="https://sunilkumar1984-art.github.io/Account-Chandigarh-2025-26/Quark%20Maintenance%20Charges%2024%20Hrs%20Operation-Apr.pdf" target="_blank">👉 Bill</a></td></tr>
+      <tr><td>May</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+      <tr><td>Jun</td><td>0</td><td>2</td><td></td><td></td><td><a href="#">View</a></td></tr>
+    </tbody>
+    <tfoot><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr></tfoot>
+  </table>
+</div>
+
+
+
+
+
 
 <script>
 function calculateTotals(table) {
@@ -499,6 +716,11 @@ document.getElementById("vendorDropdown").addEventListener("change", function ()
 window.onload = updateGrandTotal;
 </script>
 
+
+
 </div>
+</div>
+
+
 </body>
 </html>
